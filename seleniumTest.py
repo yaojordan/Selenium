@@ -7,12 +7,12 @@ from selenium import webdriver
 chrome_path = "C:\Python\programs\selenium_driver_chrome\chromedriver.exe"
 browser = webdriver.Chrome(chrome_path)
 
-browser.get('http://mtkcqweb.mediatek.inc/mtkcqweb_DT_sec05/mtk/sec/queryDispatch/dispatch.cq')
+browser.get('XXXXXX')
 
 acc = browser.find_element_by_name('loginId')
-acc.send_keys('vend_dt076')
+acc.send_keys('XXXXXX')
 pwd = browser.find_element_by_name('password')
-pwd.send_keys('vend_dt076')
+pwd.send_keys('XXXXXX')
 
 login = browser.find_element_by_id("button-1016")
 login.click()
